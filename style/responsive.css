@@ -27,5 +27,8 @@
         height: 335px;
 
     }
+    .destination-img{
+        grid-template-columns: 1fr;
+    }
     
 }

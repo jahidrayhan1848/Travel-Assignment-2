@@ -141,3 +141,20 @@ border: none;
     text-align: center;
     margin-top: 100px;
 }
+
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footer-text{
+    text-align: center;
+}
+.foot-icon{
+    text-align: center;
+}
