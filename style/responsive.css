@@ -18,5 +18,14 @@
     .banner-content-title{
        font-size: 24px;
     }
+    .popular{
+        flex-direction: column;
+    }
+        
+    .popular-img{
+        width: 335px;
+        height: 335px;
+
+    }
     
 }

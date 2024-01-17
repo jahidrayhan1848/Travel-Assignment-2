@@ -100,7 +100,44 @@ background: #FF5400;
 color: #FFF;
 width: 174px;
 height: 52px;
+border: none;
 }
 .btn-primary a{
     color: #FFF;
+}
+/* popular section  */
+.list li {
+    list-style-type: disc;
+}
+.popular {
+    display: flex;
+    margin-top: 100px;
+    
+    
+}
+
+.popular-img{
+    width: 540px;
+    height: 540px;
+}
+.popular-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}.popular-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+     margin-top: 20px; 
+     margin-bottom: 20px;
+}
+.list{
+   
+}
+
+/* destinatio section  */
+.destination-title{
+    text-align: center;
+    margin-top: 100px;
 }
