@@ -19,7 +19,15 @@
 
  .container {
      max-width: 1170px;
-     margin: 0 auto;
+     margin: 10px auto;
+ }
+ .banner-img{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+ }
+ .plan{
+    color: #FF5400;
  }
 
 .banner{
@@ -75,4 +83,24 @@ nav{
 
 .mobile-menu{
     display: none;
+}
+.banner-content-title{
+    color: #FFF;
+font-size: 44px;
+font-weight: 800;
+
+}
+.banner-content-text{
+    color: #FFF;
+    font-size: 16px;
+}
+.btn-primary{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+width: 174px;
+height: 52px;
+}
+.btn-primary a{
+    color: #FFF;
 }

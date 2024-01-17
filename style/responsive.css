@@ -15,5 +15,8 @@
     .desktop-menu{
         display: none;
     }
+    .banner-content-title{
+       font-size: 24px;
+    }
     
 }
