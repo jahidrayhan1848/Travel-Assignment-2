@@ -1,0 +1,78 @@
+ /* google font  */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;900&family=Mulish:wght@400;500;800&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Merriweather', serif;
+     font-family: 'Mulish', sans-serif;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ li{
+    list-style: none;
+ }
+
+ .container {
+     max-width: 1170px;
+     margin: 0 auto;
+ }
+
+.banner{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;    
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/Group\ 13\ \(1\)\ \(1\).png");
+}
+
+.banner-all-texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+
+.banner-form{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 800px;
+}
+
+.banner-form form{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.banner-form input, select{
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 174px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 40px;
+}
+
+.mobile-menu{
+    display: none;
+}
