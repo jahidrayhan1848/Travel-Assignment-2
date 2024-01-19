@@ -17,6 +17,10 @@
     list-style: none;
  }
 
+ img{
+    width: 100%;
+ }
+
  .container {
      max-width: 1170px;
      margin: 10px auto;
@@ -28,6 +32,12 @@
  }
  .plan{
     color: #FF5400;
+ }
+
+ .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
 .banner{
@@ -142,12 +152,74 @@ border: none;
     margin-top: 100px;
 }
 
+.bg{
+    height: 300px;
+    background-color: red;
+}
+
+.destination-img{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "mal mal mal mal mal mal indo indo indo indo indo indo"
+    "sri sri sri sri north north north north north kash kash kash"
+    "bang bang bang bang bang band band band band band band band";
+}
+
+.mal{
+    grid-area: mal;
+}
+
+.indo{
+    grid-area: indo;
+}
+
+.sri{
+    grid-area: sri;
+}
+
+.north{
+    grid-area: north;
+}
+
+.kash{
+    grid-area: kash;
+}
+
+.bang{
+    grid-area: bang;
+}
+
+.band{
+    grid-area: band;
+}
+
+/* Nesletter Form SEction */
+
+.newsletter-form-div{
+    border: 1px solid orange;
+    padding: 24px;
+}
+
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
 .news{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.sticker{
+    height: 100px;
+    width: 200px;
+    background-color: #FF5400;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -157,4 +229,46 @@ border: none;
 }
 .foot-icon{
     text-align: center;
+}
+
+
+
+/* Position Example */
+
+.all-item{
+    height: 500px;
+    background-color: #FF5400;
+    position: relative;
+}
+
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+
+.item3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.newsletter-image-and-sticker{
+    position: relative;
+}
+
+.sticker{
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+    transform: rotate(-42deg);
 }

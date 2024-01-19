@@ -28,7 +28,19 @@
 
     }
     .destination-img{
-        grid-template-columns: 1fr;
+        display: grid;
+        gap: 24px;
+        grid-template-columns:  1fr;
+        grid-template-areas: 
+        "mal"
+        "indo"
+        "sri"
+        "north"
+        "kash"
+        "bang"
+        "band";
+
     }
+    
     
 }
